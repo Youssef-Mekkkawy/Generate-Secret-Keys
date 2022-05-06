@@ -1,5 +1,5 @@
 # Simple Generator For Secret keys and Password.
-## To Read File With Better View You can Use Mark Text.
+## To Read File With Better View in Windows You can Use Mark Text.
 ## Mark Text -> https://github.com/marktext/marktext
 ## Import Class.
 
