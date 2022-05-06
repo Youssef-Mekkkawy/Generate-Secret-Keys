@@ -25,6 +25,7 @@ class Generator:
         # Strings Letters Number 
         Sum_Number_in_List = sum(Number_of_Each_Separated)
         Number_of_item_in_list = len(Number_of_Each_Separated)
+        Count_Of_Separated = len(Separated)
         Collect_ID = []
         # Check sum is equal 
         if Sum_Number_in_List != Length:
@@ -44,14 +45,12 @@ class Generator:
         if Separated != None:
             ID = Separated.join(Collect_ID)
             Size = len(ID)
-            Size_Without_Spreated = Size - (Number_of_item_in_list -1) 
+            Size_Without_Spreated = Size - ((Number_of_item_in_list - 1) * Count_Of_Separated)
         else:
             ID = ''.join(Collect_ID)
             Size = len(ID)
             Size_Without_Spreated = Size
             
-            
-
 
         if Out_Put_ID_Only == True:
             return ID

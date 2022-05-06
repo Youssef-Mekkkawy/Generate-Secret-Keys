@@ -56,3 +56,15 @@ Password_With_Special_Chara = generator.Password(Special_Chara = "\\|")
 OutPut.
 
 > Secret key with Special Character is: 5nWVX2sSYELNi|BZe1Mmk#!awgo$
+
+## Change Length & Number_of_Each_Separated.
+
+```python
+secret_key_With_details  = generator.Secret_Key(Length = 48, Number_of_Each_Separated = [12,6,6,24], Separated = "=+=")
+secret_key_With_details  = generator.Secret_Key(Length = 36, Number_of_Each_Separated = [8,4,4,4,16], Separated = "-")
+```
+
+OutPut.
+
+> Secret key With 4 Separation is: ('VvJbw4t9HifQ=+=TPQ43F=+=8XYN7W=+=2W8rMXm4KZlup7GwEO5hRs3k', 'Size: 57', 'Size Without Sptreated: 48')
+> Secret key With 5 Separation is: ('ztrVniD4-pzjK-ydkU-YAhV-p8DFIgyPne3v5Mcw', 'Size: 40', 'Size Without Sptreated: 36')
